@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && webpack -p",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "nodeserver": "cross-env NODE_ENV=production node server.js"
   },
   "repository": "https://github.com/StephenGrider/WebpackProject",
   "author": "",
